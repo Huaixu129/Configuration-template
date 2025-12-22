@@ -1,0 +1,14 @@
+<!-- 为了书写配置文件方便 -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-configuration-processor</artifactId>
+    <optional>true</optional>
+</dependency>
+
+<!-- 为了热部署 -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-b
+    oot-devtools</artifactId>
+</dependency>
+

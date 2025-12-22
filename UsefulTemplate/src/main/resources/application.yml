@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: ${spring.datasource.driver-class-name}
+    url: ${spring.datasource.url}
+    username: ${spring.datasource.username}
+    password: ${spring.datasource.password}
+
+mybatis:
+  mapper-locations: ${mybatis.mapper-locations}
+  type-aliases-package: ${mybatis.type-aliases-package}
+  configuration:
+    map-underscore-to-camel-case: ${mybatis.configuration.map-underscore-to-camel-case}
+
+# JWT??
+jwt:
+  secret: ${jwt.secret}
+  expiration: ${jwt.expiration}
